@@ -21,7 +21,7 @@ und deutschen Bezeichnungen sowie kurzen Beschreibungen.
 Dieses Modell hilft beim Verständnis von Netzwerkarchitekturen und der Fehlerbehebung. 
 Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
 
-# STRUKTUGRAMM
+# STRUKTOGRAMM
 
           jede in den Branches liegende README.md beinhaltet 
           eine Beschreibung der jeweiligen Schicht/ des jeweiligen Layer.
