@@ -1,36 +1,36 @@
 # Commit Historie des OSI-Modells
 
-## Physische Schicht
+## 1. Physische Schicht
 - `feat: physische-schicht`
   * `bit-sync`: Implementierung der Bitsynchronisation
   * `rate-control`: Kontrolle der Übertragungsrate
 
-## Datenverbindungsschicht
+## 2. Datenverbindungsschicht
 - `feat: datenverbindungsschicht`
   * `framing`: Frame-Formatierung
   * `error-control`: Fehlererkennung und -korrektur
 
-## Netzwerkschicht
+## 3. Netzwerkschicht
 - `feat: netzwerkschicht`
   * `routing`: Routenauswahl
   * `logical-addressing`: Logische Adressierung
 
-## Transport Layer
+## 4. Transport Layer
 - `feat: transport-layer`
   * `segmentation`: Segmentierung
   * `reliable-delivery`: Zuverlässige Zustellung
 
-## Sessionschicht
+## 5. Sessionschicht
 - `feat: sessionschicht`
   * `session-establishment`: Sitzungsherstellung
   * `dialog-controller`: Dialogsteuerung
 
-## Präsentationsschicht
+## 6. Präsentationsschicht
 - `feat: präsentationsschicht`
   * `translation`: Datenübersetzung
   * `compression`: Komprimierung
 
-## Anwendungsschicht
+## 7. Anwendungsschicht
 - `feat: anwendungsschicht`
   * `resource-id`: Ressourcenidentifikation
-  * `directory-services`: Verzeichnisd ienste
+  * `directory-services`: Verzeichnisdienste
