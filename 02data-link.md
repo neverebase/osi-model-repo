@@ -1,6 +1,6 @@
 # Die Datenverbindungsschicht, 
-# auch Sicherungsschicht oder Data Link Layer genannt, 
-## ist die zweite Schicht des OSI-Modells (Schicht 2). 
+## auch Sicherungsschicht oder Data Link Layer genannt, 
+ist die zweite Schicht des OSI-Modells (Schicht 2). 
 
 Sie baut auf der Physischen Schicht auf 
 und stellt eine zuverlässige Punkt-zu-Punkt- 
@@ -16,7 +16,8 @@ oder Punkt-zu-Mehrpunkt-Verbindung zwischen direkt verbundenen Geräten her.
           zur Identifizierung von Geräten im lokalen Netzwerk (z. B. 48-Bit-Adressen in Ethernet).
 
 ## Fehlererkennung und -korrektur Überprüfung auf Übertragungsfehler 
-durch Mechanismen wie CRC (Cyclic Redundancy Check) und ggf. Retransmission fehlerhafter Frames.
+          durch Mechanismen wie CRC (Cyclic Redundancy Check) 
+          und ggf. Retransmission fehlerhafter Frames.
 
 ## Zugriffskontrolle auf das Medium: 
           Verwaltung des Zugriffs auf das Übertragungsmedium, 
@@ -37,4 +38,5 @@ durch Mechanismen wie CRC (Cyclic Redundancy Check) und ggf. Retransmission fehl
           an die Netzwerkschicht (Schicht 3), 
           während sie die physische Übertragung von der Schicht 1 nutzt.
 
-Für detaillierte Spezifikationen siehe Standards wie IEEE 802.x oder ITU-T X.25. Diese Schicht ist entscheidend für die Zuverlässigkeit in LANs (Local Area Networks).
+Für detaillierte Spezifikationen siehe Standards wie IEEE 802.x oder ITU-T X.25. 
+Diese Schicht ist entscheidend für die Zuverlässigkeit in LANs (Local Area Networks).
