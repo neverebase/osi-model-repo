@@ -25,10 +25,10 @@ README.md
 [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
 ## 1. Physische Schicht (Bitübertragung)
 01physical-layer/          
-└── [01physical.txt](01physical.txt)
+└── [01physical.txt](01physical-layer/01physical.txt)
 ## 2. Datenverbindungsschicht 
 02data-link-layer/        
-└── [02data-link-layer/data-link.txt](02data-link.txt)
+└── [data-link.txt](02data-link-layer/02data-link.txt)
 ## 3. Netzwerkschicht
 03network-layer/          
 └── [network.txt](network.txt)
