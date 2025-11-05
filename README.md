@@ -25,22 +25,22 @@ git clone https://github.com/neverebase/osi-model-repo.git
 └── [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
 ## 1. Physische Schicht (Bitübertragung)
 physical-layer/          
-└── [physical-layer/physical.txt](physical-layer/physical.txt)
+└── [physical.txt](physical.txt)
 ## 2. Datenverbindungsschicht 
 data-link-layer/        
-└── [data-link-layer/data-link.txt](data-link-layer/data-link.txt)
+└── [data-link.txt](data-link.txt)
 ## 3. Netzwerkschicht
 network-layer/          
-└── [network-layer/network.txt](network-layer/network.txt)
+└── [network.txt](network.txt)
 ## 4. Transportschicht
 transport-layer/        
-└── [transport-layer/transport.txt](transport-layer/transport.txt)
+└── [transport.txt](transport.txt)
 ## 5. Sitzungsschicht
 session-layer/          
-└── [session-layer/session.txt](session-layer/session.txt)
+└── [session.txt](session.txt)
 ## 6. Präsentationsschicht
 presentation-layer/     
-└── [presentation-layer/presentation.txt](presentation-layer/presentation.txt)
+└── [presentation.txt](presentation.txt)
 ## 7. Anwendungsschicht
 application-layer/      
 └── [application.txt](application.txt)
