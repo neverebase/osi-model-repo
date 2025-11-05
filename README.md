@@ -1,4 +1,5 @@
-# Zusammenfassung der Physischen Schicht (Physical Layer) im OSI-Modell
+# Zusammenfassung der Physischen Schicht 
+# (Physical Layer) im OSI-Modell
 
 Die Physische Schicht, auch Bitübertragungsschicht genannt, 
 ist die unterste Schicht des OSI-Modells (Schicht 1). 
