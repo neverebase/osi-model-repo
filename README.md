@@ -1,19 +1,45 @@
-# OSI-Modell als Git-Repository
+# (Session Layer) im OSI-Modell
 
-Dies ist eine Darstellung des OSI-Modells als Git-Repository, wobei jede Schicht als eigenes Feature-Branch implementiert wurde.
+Die Sitzungsschicht ist die fünfte Schicht des OSI-Modells (Schicht 5). 
+Sie verwaltet die Kommunikationssitzungen zwischen Anwendungen 
+auf verschiedenen Geräten, um einen strukturierten Datenaustausch zu ermöglichen.
 
-## Branch-Struktur
-- Hauptbranch: main
-- Feature-Branches für jede OSI-Schicht
-- Dokumentation der Kommunikationsprozesse
+Ihre Hauptaufgaben umfassen:
 
-## Commit-Historie
-Siehe [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
+## Aufbau, Verwaltung und Abbau von Sitzungen: 
+          Etablierung von Verbindungen zwischen Anwendungen, 
+          Überwachung des Sitzungsstatus und ordnungsgemäße Beendigung 
+          der Kommunikation, um Ressourcen freizugeben.
 
-## Installation
-```bash
-git clone https://github.com/neverebase/osi-model-repo.git
-```
+## Synchronisation von Datenströmen: 
+          Sicherstellung der korrekten Reihenfolge und Synchronisation 
+          von Datenübertragungen, z. B. durch Checkpoints 
+          zur Wiederherstellung nach Unterbrechungen.
 
-## Kontributionen
-Öffnen Sie einen Pull-Request pro OSI-Schicht.
+## Token-Management: 
+          Verwaltung von Zugriffsrechten und Token-Systemen 
+          zur Koordination des Datenaustauschs, 
+          um Konflikte in Mehrbenutzerumgebungen zu vermeiden.
+
+## Dialogsteuerung: 
+          Bestimmung des Kommunikationsmodus, 
+          z. B. Simplex (einseitig), Half-Duplex (abwechselnd) 
+          oder Full-Duplex (bidirektional), 
+          je nach Anforderungen der Anwendung.
+
+## Fehlerbehandlung auf Sitzungsebene: 
+          Erkennung und Behandlung von Sitzungsfehlern, 
+          wie Verbindungsabbrüche, 
+          und Initiierung von Wiederherstellungsprozessen.
+
+## Beispiele für Technologien in dieser Schicht: 
+          NetBIOS (Network Basic Input/Output System), 
+          RPC (Remote Procedure Call), PPTP (Point-to-Point Tunneling Protocol) 
+          oder ISO 8326. 
+          Sie stellt sicher, dass Sitzungen effizient und sicher ablaufen.
+
+Diese Schicht interagiert mit der Transportschicht für die zuverlässige Datenübertragung 
+und mit der Präsentationsschicht für die Datenformatierung, 
+während sie die Grundlage für Anwendungen wie Videokonferenzen oder Dateitransfers bildet.
+
+Für detaillierte Spezifikationen siehe Standards wie ITU-T X.225 oder ISO 8326.
