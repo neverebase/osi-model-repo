@@ -1,44 +1,45 @@
-# Zusammenfassung der Physischen Schicht 
-# (Physical Layer) im OSI-Modell
+## Das **OSI-Modell** (Open Systems Interconnection) 
+ist ein Referenzmodell für Netzwerkprotokolle, 
+das die Kommunikation in sieben Schichten unterteilt. 
 
-Die Physische Schicht, auch Bitübertragungsschicht genannt, 
-ist die unterste Schicht des OSI-Modells (Schicht 1). 
-Sie befasst sich mit der physischen Übertragung von Rohdaten (Bits) 
-über ein Kommunikationsmedium, ohne Rücksicht auf die Bedeutung der Daten. 
+Jede Schicht hat spezifische Aufgaben 
+und baut auf der darunterliegenden auf. 
 
-Ihre Hauptaufgaben umfassen:
+Hier eine Übersicht mit englischen 
+und deutschen Bezeichnungen sowie kurzen Beschreibungen.
 
-## Signalübertragung: 
-          Umwandlung von digitalen Bits in physische Signale 
-          (z. B. elektrische, optische oder elektromagnetische Signale) 
-          und deren Übertragung über Kabel, Funk oder andere Medien.
+| Schicht | Englisch | Deutsch | Beschreibung |
+|---------|----------|---------|-------------|
+| 7 | Application Layer | Anwendungsschicht | Schnittstelle für Anwendungen; z.B. HTTP, FTP. |
+| 6 | Presentation Layer | Darstellungsschicht | Datenformatierung, Verschlüsselung und Komprimierung. |
+| 5 | Session Layer | Sitzungsschicht | Verwaltung von Sitzungen und Verbindungen. |
+| 4 | Transport Layer | Transportschicht | Zuverlässige Datenübertragung; z.B. TCP, UDP. |
+| 3 | Network Layer | Vermittlungsschicht | Routing und Adressierung; z.B. IP. |
+| 2 | Data Link Layer | Sicherungsschicht | Fehlerkorrektur und Zugriff auf das Medium; z.B. Ethernet. |
+| 1 | Physical Layer | Bitübertragungsschicht | Übertragung von Bits über physische Medien; z.B. Kabel, WLAN. |
 
-## Kodierung und Modulation: 
-          Kodierung von Bits in übertragbare Formate 
-          (z. B. Manchester-Kodierung) und Modulation 
-          zur Anpassung an das Medium.
+Dieses Modell hilft beim Verständnis von Netzwerkarchitekturen und der Fehlerbehebung. 
+Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
 
-## Hardware-Schnittstellen: 
-          Definition von Steckern, Kabeln und Geräten 
-          (z. B. RJ-45 für Ethernet, USB oder WLAN-Adapter).
+# STRUKTUGRAMM
 
-## Synchronisation und Fehlererkennung auf niedrigster Ebene: 
-          Sicherstellung der korrekten Bitfolge 
-          und grundlegende Fehlererkennung durch Parity-Bits 
-          oder ähnliche Mechanismen.
+          jede in den Branches liegende README.md beinhaltet 
+          eine Beschreibung der jeweiligen Schicht/ des jeweiligen Layer.
 
-## Topologie und Übertragungsmodi: 
-          Unterstützung von Netzwerktopologien (z. B. Bus, Stern) 
-          und Modi wie Simplex, Half-Duplex oder Full-Duplex.
-
-## Beispiele für Technologien in dieser Schicht: 
-          Ethernet-Kabel (z. B. Cat5/Cat6), Glasfaserkabel, WLAN (Wi-Fi), 
-          Bluetooth oder serielle Schnittstellen (RS-232). 
-          Sie bildet die Grundlage für alle höheren Schichten, 
-          indem sie eine zuverlässige Bit-Übertragung ermöglicht, 
-          ohne die Daten zu interpretieren.
-
-Diese Schicht interagiert direkt mit der Hardware und stellt sicher, 
-dass Bits von einem Gerät zum anderen gelangen, unabhängig von der Software darüber. 
-
-Für detaillierte Spezifikationen siehe Standards wie IEEE 802.3 (Ethernet) oder ITU-T G-Serie.
+main
+--> [README.md](README.md)
+--> [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
+/01physical-layer
+--> README.md
+/02data-link-layer
+--> README.md
+/03network-layer
+--> README.md
+/04transport-layer
+--> README.md
+/05session-layer
+--> README.md
+/06presentation-layer
+--> README.md
+/07application-layer
+--> README.md
