@@ -5,7 +5,6 @@ das die Kommunikation in sieben Schichten unterteilt.
 Jede Schicht hat spezifische Aufgaben 
 und baut auf der darunterliegenden auf. 
 
-
 Dieses Modell hilft beim Verständnis von Netzwerkarchitekturen und der Fehlerbehebung. 
 Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
 
