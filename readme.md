@@ -14,7 +14,8 @@ Ihre Hauptaufgaben umfassen:
 
 ## Kodierung und Modulation: 
           Kodierung von Bits in übertragbare Formate 
-          (z. B. Manchester-Kodierung) und Modulation zur Anpassung an das Medium.
+          (z. B. Manchester-Kodierung) und Modulation 
+          zur Anpassung an das Medium.
 
 ## Hardware-Schnittstellen: 
           Definition von Steckern, Kabeln und Geräten 
@@ -22,7 +23,8 @@ Ihre Hauptaufgaben umfassen:
 
 ## Synchronisation und Fehlererkennung auf niedrigster Ebene: 
           Sicherstellung der korrekten Bitfolge 
-          und grundlegende Fehlererkennung durch Parity-Bits oder ähnliche Mechanismen.
+          und grundlegende Fehlererkennung durch Parity-Bits 
+          oder ähnliche Mechanismen.
 
 ## Topologie und Übertragungsmodi: 
           Unterstützung von Netzwerktopologien (z. B. Bus, Stern) 
@@ -32,7 +34,8 @@ Ihre Hauptaufgaben umfassen:
           Ethernet-Kabel (z. B. Cat5/Cat6), Glasfaserkabel, WLAN (Wi-Fi), 
           Bluetooth oder serielle Schnittstellen (RS-232). 
           Sie bildet die Grundlage für alle höheren Schichten, 
-          indem sie eine zuverlässige Bit-Übertragung ermöglicht, ohne die Daten zu interpretieren.
+          indem sie eine zuverlässige Bit-Übertragung ermöglicht, 
+          ohne die Daten zu interpretieren.
 
 Diese Schicht interagiert direkt mit der Hardware und stellt sicher, 
 dass Bits von einem Gerät zum anderen gelangen, unabhängig von der Software darüber. 
