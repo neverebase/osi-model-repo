@@ -21,14 +21,14 @@ git clone https://github.com/neverebase/osi-model-repo.git
 # Repository-Struktur
 ## osi-model-repo/
 ## main/                    
-└── README.md
-└── [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
+README.md
+[COMMIT_HISTORY.md](COMMIT_HISTORY.md)
 ## 1. Physische Schicht (Bitübertragung)
 01physical-layer/          
-└── [physical.txt](physical.txt)
+└── [01physical.txt](01physical.txt)
 ## 2. Datenverbindungsschicht 
 02data-link-layer/        
-└── [data-link.txt](data-link.txt)
+└── [02data-link-layer/data-link.txt](02data-link.txt)
 ## 3. Netzwerkschicht
 03network-layer/          
 └── [network.txt](network.txt)
