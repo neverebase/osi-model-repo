@@ -24,7 +24,7 @@ git clone https://github.com/neverebase/osi-model-repo.git
 └──[COMMIT_HISTORY.md](COMMIT_HISTORY.md)
 ## Physische Schicht 
 physical-layer/          
-└── [physical.txt](physical.txt)
+└── [physical-layer/physical.txt](physical.txt)
 ## Datenverbindungsschicht 
 data-link-layer/        
 └── [data-link.txt](data-link.txt)
