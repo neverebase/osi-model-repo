@@ -19,11 +19,12 @@ git clone https://github.com/neverebase/osi-model-repo.git
 Öffnen Sie einen Pull-Request pro OSI-Schicht.
 
 osi-model-repo/
-├── main/                    # Nur README.md und COMMIT_HISTORY.md
+├── main/                    
 │   ├── README.md
-│   └── COMMIT_HISTORY.md
-├── physical-layer/          # Physische Schicht
-│   └── physical.txt
+│   └── [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
+├── physical-layer/          
+# Physische Schicht
+│   └── [physical.txt](physical.txt) 
 ├── data-link-layer/        # Datenverbindungsschicht
 │   └── data-link.txt
 ├── network-layer/          # Netzwerkschicht
