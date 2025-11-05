@@ -1,13 +1,40 @@
-#Zusammenfassung der Physischen Schicht (Physical Layer) im OSI-Modell
+# Zusammenfassung der Physischen Schicht (Physical Layer) im OSI-Modell
 
-Die Physische Schicht, auch Bitübertragungsschicht genannt, ist die unterste Schicht des OSI-Modells (Schicht 1). Sie befasst sich mit der physischen Übertragung von Rohdaten (Bits) über ein Kommunikationsmedium, ohne Rücksicht auf die Bedeutung der Daten. Ihre Hauptaufgaben umfassen:
+Die Physische Schicht, auch Bitübertragungsschicht genannt, 
+ist die unterste Schicht des OSI-Modells (Schicht 1). 
+Sie befasst sich mit der physischen Übertragung von Rohdaten (Bits) 
+über ein Kommunikationsmedium, ohne Rücksicht auf die Bedeutung der Daten. 
 
-## Signalübertragung: Umwandlung von digitalen Bits in physische Signale (z. B. elektrische, optische oder elektromagnetische Signale) und deren Übertragung über Kabel, Funk oder andere Medien.
-## Kodierung und Modulation: Kodierung von Bits in übertragbare Formate (z. B. Manchester-Kodierung) und Modulation zur Anpassung an das Medium.
-## Hardware-Schnittstellen: Definition von Steckern, Kabeln und Geräten (z. B. RJ-45 für Ethernet, USB oder WLAN-Adapter).
-## Synchronisation und Fehlererkennung auf niedrigster Ebene: Sicherstellung der korrekten Bitfolge und grundlegende Fehlererkennung durch Parity-Bits oder ähnliche Mechanismen.
-## Topologie und Übertragungsmodi: Unterstützung von Netzwerktopologien (z. B. Bus, Stern) und Modi wie Simplex, Half-Duplex oder Full-Duplex.
+Ihre Hauptaufgaben umfassen:
 
-## Beispiele für Technologien in dieser Schicht: Ethernet-Kabel (z. B. Cat5/Cat6), Glasfaserkabel, WLAN (Wi-Fi), Bluetooth oder serielle Schnittstellen (RS-232). Sie bildet die Grundlage für alle höheren Schichten, indem sie eine zuverlässige Bit-Übertragung ermöglicht, ohne die Daten zu interpretieren.
+## Signalübertragung: 
+          Umwandlung von digitalen Bits in physische Signale 
+          (z. B. elektrische, optische oder elektromagnetische Signale) 
+          und deren Übertragung über Kabel, Funk oder andere Medien.
 
-Diese Schicht interagiert direkt mit der Hardware und stellt sicher, dass Bits von einem Gerät zum anderen gelangen, unabhängig von der Software darüber. Für detaillierte Spezifikationen siehe Standards wie IEEE 802.3 (Ethernet) oder ITU-T G-Serie.
+## Kodierung und Modulation: 
+          Kodierung von Bits in übertragbare Formate 
+          (z. B. Manchester-Kodierung) und Modulation zur Anpassung an das Medium.
+
+## Hardware-Schnittstellen: 
+          Definition von Steckern, Kabeln und Geräten 
+          (z. B. RJ-45 für Ethernet, USB oder WLAN-Adapter).
+
+## Synchronisation und Fehlererkennung auf niedrigster Ebene: 
+          Sicherstellung der korrekten Bitfolge 
+          und grundlegende Fehlererkennung durch Parity-Bits oder ähnliche Mechanismen.
+
+## Topologie und Übertragungsmodi: 
+          Unterstützung von Netzwerktopologien (z. B. Bus, Stern) 
+          und Modi wie Simplex, Half-Duplex oder Full-Duplex.
+
+## Beispiele für Technologien in dieser Schicht: 
+          Ethernet-Kabel (z. B. Cat5/Cat6), Glasfaserkabel, WLAN (Wi-Fi), 
+          Bluetooth oder serielle Schnittstellen (RS-232). 
+          Sie bildet die Grundlage für alle höheren Schichten, 
+          indem sie eine zuverlässige Bit-Übertragung ermöglicht, ohne die Daten zu interpretieren.
+
+Diese Schicht interagiert direkt mit der Hardware und stellt sicher, 
+dass Bits von einem Gerät zum anderen gelangen, unabhängig von der Software darüber. 
+
+Für detaillierte Spezifikationen siehe Standards wie IEEE 802.3 (Ethernet) oder ITU-T G-Serie.
