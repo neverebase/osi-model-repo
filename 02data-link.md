@@ -1,5 +1,6 @@
-# Die Datenverbindungsschicht, auch Sicherungsschicht oder Data Link Layer genannt, 
-ist die zweite Schicht des OSI-Modells (Schicht 2). 
+# Die Datenverbindungsschicht, 
+# auch Sicherungsschicht oder Data Link Layer genannt, 
+## ist die zweite Schicht des OSI-Modells (Schicht 2). 
 
 Sie baut auf der Physischen Schicht auf 
 und stellt eine zuverlässige Punkt-zu-Punkt- 
