@@ -32,8 +32,8 @@ Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
 | /07application-layer | 
 |          👉| [README.md] |
 
-# Hier eine Übersicht mit englischen 
-# und deutschen Bezeichnungen sowie kurzen Beschreibungen.
+# Übersicht 
+mit englischen und deutschen Bezeichnungen sowie kurzen Beschreibungen.
 
 | Schicht | Englisch | Deutsch | Beschreibung |
 |---------|----------|---------|-------------|
