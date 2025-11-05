@@ -1,43 +1,44 @@
-# (Presentation Layer) im OSI-Modell
+# (Transport Layer) im OSI-Modell
 
-Die Präsentationsschicht ist die sechste Schicht des OSI-Modells (Schicht 6). 
-Sie übersetzt Datenformate und stellt sicher, dass Daten korrekt interpretiert werden, 
-um eine einheitliche Darstellung zwischen verschiedenen Systemen zu gewährleisten.
+Die Transportschicht ist die vierte Schicht des OSI-Modells (Schicht 4). 
+Sie sorgt für eine zuverlässige Ende-zu-Ende-Verbindung zwischen Anwendungen 
+auf verschiedenen Geräten, unabhängig von der Netzwerkstruktur darunter.
 
 Ihre Hauptaufgaben umfassen:
 
-## Datenformatierung und -übersetzung: 
-          Umwandlung von Daten in ein gemeinsames Format, 
-          z. B. Konvertierung zwischen verschiedenen Zeichensätzen 
-          (ASCII, EBCDIC) oder Datenstrukturen.
+## Segmentierung und Reassemblierung: 
+          Aufteilung der Daten in Segmente für die Übertragung 
+          und deren Wiederzusammenfügung am Ziel, 
+          um eine effiziente und fehlerfreie Datenübermittlung zu gewährleisten.
 
-## Verschlüsselung und Entschlüsselung: 
-          Schutz der Daten durch Verschlüsselung vor der Übertragung 
-          und Entschlüsselung am Ziel, 
-          um Sicherheit und Vertraulichkeit zu gewährleisten.
+## Fehlerkorrektur: 
+          Erkennung und Korrektur von Übertragungsfehlern 
+          durch Mechanismen wie Sequenznummern, Bestätigungen (ACKs) 
+          und Retransmission verlorener Segmente.
 
-## Komprimierung und Dekomprimierung: 
-          Reduzierung der Datenmenge durch Komprimierung 
-          für effizientere Übertragung 
-          und Wiederherstellung am Empfänger.
+## Flusskontrolle: 
+          Regulierung der Datenübertragungsrate 
+          zwischen Sender und Empfänger, 
+          um Überlastungen zu vermeiden und die Netzwerkleistung zu optimieren.
 
-## Code-Konvertierung: 
-          Anpassung von Datenformaten, 
-          z. B. Umwandlung von Textkodierungen oder Bildformaten, 
-          um Kompatibilität zwischen heterogenen Systemen zu erreichen.
+## Multiplexing von Verbindungen: 
+          Verwaltung mehrerer gleichzeitiger Verbindungen 
+          über denselben Netzwerkpfad, 
+          indem Ports zur Identifizierung von Anwendungen verwendet werden.
 
-## Multimedia-Unterstützung: 
-          Handhabung von Multimedia-Daten wie Bildern, Videos oder Audio, 
-          einschließlich Kodierung und Dekodierung.
+## Zuverlässigkeit vs. Geschwindigkeit: 
+          Bereitstellung von Optionen wie garantierter Zustellung 
+          (z. B. TCP) oder schneller, aber unzuverlässiger Übertragung 
+          (z. B. UDP), je nach Anforderungen der Anwendung.
 
 ## Beispiele für Technologien in dieser Schicht: 
-          MIME (Multipurpose Internet Mail Extensions), 
-          SSL/TLS (Secure Sockets Layer/Transport Layer Security), 
-          JPEG, ASCII oder EBCDIC. 
-          Sie macht Daten für die Anwendungsschicht lesbar.
+          TCP (Transmission Control Protocol) für zuverlässige Verbindungen, 
+          UDP (User Datagram Protocol) für schnelle, verbindungslose Übertragungen, 
+          SCTP (Stream Control Transmission Protocol) oder DCCP. 
+          Sie bietet Dienste wie garantierte Zustellung oder Echtzeitkommunikation.
 
-Diese Schicht interagiert mit der Sitzungsschicht für die Sitzungsverwaltung 
-und mit der Anwendungsschicht für den direkten Zugriff auf Dienste, 
-während sie die Grundlage für sichere und kompatible Datenübertragungen bildet.
+Diese Schicht interagiert mit der Netzwerkschicht für die Paketweiterleitung 
+und mit der Sitzungsschicht für die Verwaltung von Kommunikationssitzungen, 
+während sie die Grundlage für Anwendungen wie Webbrowser oder E-Mail-Clients bildet.
 
-Für detaillierte Spezifikationen siehe Standards wie ISO 8822 oder ITU-T X.226.
+Für detaillierte Spezifikationen siehe Standards wie RFC 793 (TCP) oder RFC 768 (UDP).
