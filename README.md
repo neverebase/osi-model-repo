@@ -31,16 +31,16 @@ Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
 |          👉|[README.md](README.md)|
 |          👉|[COMMIT_HISTORY.md](COMMIT_HISTORY.md)|
 | /01physical-layer |
-|          👉| README.md |
+|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/d7f70012f9eae98493d9cd1ed4add99795dcde7d/README.md) |
 | /02data-link-layer |
-|          👉| README.md |
+|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/4fe67b71e258995414b728f24b78c6e03b290a56/README.md) |
 | /03network-layer |
-|          👉| README.md |
+|          👉| [README.md] |
 | /04transport-layer |
-|          👉| README.md |
+|          👉| [README.md] |
 | /05session-layer |
-|          👉| README.md |
+|          👉| [README.md] |
 | /06presentation-layer |
-|          👉| README.md |
+|          👉| [README.md] |
 | /07application-layer | 
-|          👉| README.md |
+|          👉| [README.md] |
