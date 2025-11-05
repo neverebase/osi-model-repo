@@ -26,20 +26,21 @@ Für detaillierte Informationen siehe die offizielle OSI-Spezifikation.
           jede in den Branches liegende README.md beinhaltet 
           eine Beschreibung der jeweiligen Schicht/ des jeweiligen Layer.
 
-main
---> [README.md](README.md)
---> [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
-/01physical-layer
---> README.md
-/02data-link-layer
---> README.md
-/03network-layer
---> README.md
-/04transport-layer
---> README.md
-/05session-layer
---> README.md
-/06presentation-layer
---> README.md
-/07application-layer
---> README.md
+|/main||
+|---|----------------|
+|          👉|[README.md](README.md)|
+|          👉|[COMMIT_HISTORY.md](COMMIT_HISTORY.md)|
+| /01physical-layer |
+|          👉| README.md |
+| /02data-link-layer |
+|          👉| README.md |
+| /03network-layer |
+|          👉| README.md |
+| /04transport-layer |
+|          👉| README.md |
+| /05session-layer |
+|          👉| README.md |
+| /06presentation-layer |
+|          👉| README.md |
+| /07application-layer | 
+|          👉| README.md |
