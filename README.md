@@ -1,18 +1,19 @@
 # OSI-Modell als Git-Repository
 
-Dies ist eine Darstellung des OSI-Modells als Git-Repository, wobei jede Schicht als eigenes Feature-Branch fungiert.
+Dies ist eine Darstellung des OSI-Modells als Git-Repository, wobei jede Schicht als eigenes Feature-Branch implementiert wurde.
 
-## Schichtenstruktur
+## Branch-Struktur
+- Hauptbranch: main
+- Feature-Branches für jede OSI-Schicht
+- Dokumentation der Kommunikationsprozesse
 
-1. [Physische Schicht](docs/physical-layer.md)
-2. [Datenverbindungsschicht](docs/data-link-layer.md)
-3. [Netzwerkschicht](docs/network-layer.md)
-4. [Transport Layer](docs/transport-layer.md)
-5. [Sessionschicht](docs/session-layer.md)
-6. [Präsentationsschicht](docs/presentation-layer.md)
-7. [Anwendungsschicht](docs/application-layer.md)
+## Commit-Historie
+Siehe [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
 
-## Branch-Strategie
-- Hauptbranch: `main`
-- Feature-Branches: Eine pro OSI-Schicht
-- Commit-Nachrichten enthalten die spezifischen Funktionen jeder Sch icht
+## Installation
+```bash
+git clone https://github.com/neverebase/osi-model-repo.git
+```
+
+## Kontributionen
+Öffnen Sie einen Pull-Request pro OSI-Schicht.
