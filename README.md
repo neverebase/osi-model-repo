@@ -20,7 +20,7 @@ eine Beschreibung der jeweiligen Schicht/ des jeweiligen Layer.
 | /05session-layer |
 |          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/f7bc5c78f8fb9a859a959559bf99e921faf38198/README.md) |
 | /06presentation-layer |
-|          👉| [README.md] |
+|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/d0eb2878ed87347c88d9bae1b43ad5c8610b6393/README.md) |
 | /07application-layer | 
 |          👉| [README.md] |
 
