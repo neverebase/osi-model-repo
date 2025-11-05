@@ -1,41 +1,43 @@
-# (Application Layer) im OSI-Modell
+# (Presentation Layer) im OSI-Modell
 
-Die Anwendungsschicht ist die oberste Schicht des OSI-Modells (Schicht 7). 
-Sie stellt Schnittstellen für Benutzeranwendungen und Netzwerkdienste bereit, 
-um den direkten Zugriff auf Ressourcen und Dienste zu ermöglichen.
+Die Präsentationsschicht ist die sechste Schicht des OSI-Modells (Schicht 6). 
+Sie übersetzt Datenformate und stellt sicher, dass Daten korrekt interpretiert werden, 
+um eine einheitliche Darstellung zwischen verschiedenen Systemen zu gewährleisten.
 
 Ihre Hauptaufgaben umfassen:
 
-## Zugriff auf Netzwerkdienste: 
-          Bereitstellung von Protokollen und APIs 
-          für den Zugriff auf entfernte Ressourcen, 
-          wie Dateien, E-Mails oder Webseiten.
+## Datenformatierung und -übersetzung: 
+          Umwandlung von Daten in ein gemeinsames Format, 
+          z. B. Konvertierung zwischen verschiedenen Zeichensätzen 
+          (ASCII, EBCDIC) oder Datenstrukturen.
 
-## Datenübertragung für Anwendungen: 
-          Koordination der Datenübermittlung zwischen Anwendungen, 
-          z. B. durch HTTP für Webbrowser oder SMTP für E-Mails.
+## Verschlüsselung und Entschlüsselung: 
+          Schutz der Daten durch Verschlüsselung vor der Übertragung 
+          und Entschlüsselung am Ziel, 
+          um Sicherheit und Vertraulichkeit zu gewährleisten.
 
-## Authentifizierung und Autorisierung: 
-          Überprüfung der Identität von Benutzern und Geräten 
-          sowie Zuweisung von Zugriffsrechten, 
-          um Sicherheit zu gewährleisten.
+## Komprimierung und Dekomprimierung: 
+          Reduzierung der Datenmenge durch Komprimierung 
+          für effizientere Übertragung 
+          und Wiederherstellung am Empfänger.
 
-## Anwendungsprotokolle: 
-          Definition von Regeln für spezifische Anwendungen, 
-          wie Dateiübertragung, Fernzugriff oder Verzeichnisdienste.
+## Code-Konvertierung: 
+          Anpassung von Datenformaten, 
+          z. B. Umwandlung von Textkodierungen oder Bildformaten, 
+          um Kompatibilität zwischen heterogenen Systemen zu erreichen.
 
-## Benutzeroberfläche: 
-          Interaktion mit dem Endbenutzer, 
-          z. B. durch Browser, E-Mail-Clients oder FTP-Programme.
+## Multimedia-Unterstützung: 
+          Handhabung von Multimedia-Daten wie Bildern, Videos oder Audio, 
+          einschließlich Kodierung und Dekodierung.
 
 ## Beispiele für Technologien in dieser Schicht: 
-          HTTP/HTTPS (Hypertext Transfer Protocol), 
-          FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), 
-          DNS (Domain Name System) oder Telnet. 
-          Sie ist die einzige Schicht, mit der Endbenutzer direkt interagieren.
+          MIME (Multipurpose Internet Mail Extensions), 
+          SSL/TLS (Secure Sockets Layer/Transport Layer Security), 
+          JPEG, ASCII oder EBCDIC. 
+          Sie macht Daten für die Anwendungsschicht lesbar.
 
-Diese Schicht interagiert mit der Präsentationsschicht für die Datenformatierung 
-und nutzt die darunterliegenden Schichten für die gesamte Kommunikation, 
-während sie die Grundlage für alltägliche Anwendungen wie Internetbrowsing bildet.
+Diese Schicht interagiert mit der Sitzungsschicht für die Sitzungsverwaltung 
+und mit der Anwendungsschicht für den direkten Zugriff auf Dienste, 
+während sie die Grundlage für sichere und kompatible Datenübertragungen bildet.
 
-Für detaillierte Spezifikationen siehe Standards wie RFC 2616 (HTTP) oder RFC 1035 (DNS).
+Für detaillierte Spezifikationen siehe Standards wie ISO 8822 oder ITU-T X.226.
