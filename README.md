@@ -18,22 +18,28 @@ git clone https://github.com/neverebase/osi-model-repo.git
 ## Kontributionen
 Öffnen Sie einen Pull-Request pro OSI-Schicht.
 
-osi-model-repo/
-├── main/                    
-│   ├── README.md
-│   └── [COMMIT_HISTORY.md](COMMIT_HISTORY.md)
-├── physical-layer/          
-# Physische Schicht
-│   └── [physical.txt](physical.txt) 
-├── data-link-layer/        # Datenverbindungsschicht
-│   └── data-link.txt
-├── network-layer/          # Netzwerkschicht
-│   └── network.txt
-├── transport-layer/        # Transport Layer
-│   └── transport.txt
-├── session-layer/          # Sessionschicht
-│   └── session.txt
-├── presentation-layer/     # Präsentationsschicht
-│   └── presentation.txt
-└── application-layer/      # Anwendungsschicht
-    └── application.txt
+#osi-model-repo/
+## main/                    
+└──README.md
+└──[COMMIT_HISTORY.md](COMMIT_HISTORY.md)
+## Physische Schicht 
+|physical-layer/          
+└── [physical.txt](physical.txt)
+## Datenverbindungsschicht 
+|data-link-layer/        
+└── [data-link.txt](data-link.txt)
+## Netzwerkschicht
+|network-layer/          
+└── [network.txt](network.txt)
+## Transport Layer
+|transport-layer/        
+└── [transport.txt](transport.txt)
+## Sessionschicht
+|session-layer/          
+└── [session.txt](session.txt)
+## Präsentationsschicht
+|presentation-layer/     
+└── [presentation txt](presentation.Txt)
+## Anwendungsschicht
+|application-layer/      
+└── [application.Txt](application.Txt) 
