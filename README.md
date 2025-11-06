@@ -7,22 +7,22 @@ eine Beschreibung der jeweiligen Schicht/ des jeweiligen Layer.
 
 |/main||
 |---|----------------|
-|          👉|[README.md](README.md)|
-|          👉|[COMMIT_HISTORY.md](COMMIT_HISTORY.md)|
+|👉|[README.md](README.md)|
+|👉|[COMMIT_HISTORY.md](COMMIT_HISTORY.md)|
 | /01physical-layer |
-|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/d7f70012f9eae98493d9cd1ed4add99795dcde7d/README.md) |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/d7f70012f9eae98493d9cd1ed4add99795dcde7d/README.md) |
 | /02data-link-layer |
-|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/4fe67b71e258995414b728f24b78c6e03b290a56/README.md) |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/4fe67b71e258995414b728f24b78c6e03b290a56/README.md) |
 | /03network-layer |
-|          👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/b1a3d8dde7490694e535a94ce16d77229fc2b17f/README.md) |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/b1a3d8dde7490694e535a94ce16d77229fc2b17f/README.md) |
 | /04transport-layer |
-|          👉| [README.md] |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/a9055c3fc3f404082860131c79a4f16c30f0dc80/README.md) |
 | /05session-layer |
-|          👉| [README.md] |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/c595dabd3c7c9ea188653a26ca83896ea08c6a3a/README.md) |
 | /06presentation-layer |
-|          👉| [README.md] |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/afc3d3113e3acaf56f3f66c4ac26c71cbc941206/README.md) |
 | /07application-layer | 
-|          👉| [README.md] |
+|👉| [README.md](https://github.com/neverebase/osi-model-repo/blob/2294075d9fc781c185b9d778a485a386ec474d35/README.md) |
 
 # Übersicht 
 mit englischen und deutschen Bezeichnungen sowie kurzen Beschreibungen.
